@@ -1,5 +1,5 @@
 import streamlit as sl
-import pyrebase
+from pyrebase import *
 config={
     "apiKey": "AIzaSyCilEt1u-MY3Yz56_fPoGbsysgLoweReYI",
     "authDomain": "newsletter-f9a5f.firebaseapp.com",
