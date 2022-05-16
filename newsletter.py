@@ -17,9 +17,9 @@ sl.markdown("Hello join our Rattlefoundation's newsletter to get our updates upt
 inp=sl.text_input('Your name:')
 inp2=sl.text_input('Your email:')
 if sl.button('Join!'):
-    data={inp:True}
+    data={inp:""}
     s=inp2.replace('.','')
-    data2={s:True}
+    data2={s:""}
     db.child("Name").set(data)
     db.child("Email id").set(data2)
     m=sl.header('Thank you for joining our newsletter!')
