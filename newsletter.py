@@ -20,6 +20,6 @@ if sl.button('Join!'):
     data={inp:""}
     s=inp2.replace('.','')
     data2={s:""}
-    db.child("Name").set(data)
-    db.child("Email id").set(data2)
+    db.child("Name").update(data)
+    db.child("Email id").update(data2)
     m=sl.header('Thank you for joining our newsletter!')
